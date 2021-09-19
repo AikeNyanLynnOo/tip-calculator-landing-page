@@ -18,7 +18,7 @@ body {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   background-color: hsl(185, 41%, 84%);
-  min-height: 90vh;
+  height: 90vh;
   width: 70%;
   padding-bottom: 30px;
   text-align: center;
@@ -188,7 +188,7 @@ button:focus {
 }
 
 .footer{
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 12px;
 }
 
@@ -222,6 +222,8 @@ button:focus {
     -moz-border-radius: 0px;
     -ms-border-radius: 0px;
     -o-border-radius: 0px;
+    max-height: max-content;
+    height: auto;
   }
   .inner-card {
     display: block;
