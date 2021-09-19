@@ -169,6 +169,7 @@ body {
   font-size: 18px;
   border: none;
   line-height: 2em;
+  cursor : pointer;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
