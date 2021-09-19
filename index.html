@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="outer-card">
+      <img src="./assets/images/logo.svg" alt="logo" class="logo" />
+      <div class="inner-card">
+        <form action="#" class="inner-form">
+          <div>
+            <label for="bill" class="label">Bill</label>
+            <div class="input-group">
+              <img
+                src="./assets/images/icon-dollar.svg"
+                alt="dollar-sign"
+                class="input-icon"
+              />
+              <input type="number" class="input" />
+            </div>
+          </div>
+          <div>
+            <label for="bill" class="label">Select Tip %</label>
+            <div class="tip-panel">
+              <button class="tip">5%</button>
+              <button class="tip">10%</button>
+              <button class="tip-active">15%</button>
+              <button class="tip">25%</button>
+              <button class="tip">50%</button>
+              <button class="tip-custom">Custom</button>
+            </div>
+          </div>
+          <div>
+            <label for="bill" class="label">Number of people</label>
+            <div class="input-group">
+              <img
+                src="./assets/images/icon-person.svg"
+                alt="person-icon"
+                class="input-icon"
+              />
+              <input type="number" class="input" />
+            </div>
+          </div>
+        </form>
+        <div class="innermost-card">
+          <ul class="price-list">
+            <li>
+              <div class="left">
+                <p class="title">Tip Amount</p>
+                <span class="sub-title">/ person</span>
+              </div>
+              <div class="right">$4.27</div>
+            </li>
+            <li>
+              <div class="left">
+                <p class="title">Total</p>
+                <span class="sub-title">/ person</span>
+              </div>
+              <div class="right">$32.79</div>
+            </li>
+          </ul>
+          <button class="btn-reset">Reset</button>
+        </div>
+      </div>
+      <div class="footer">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a href="https://github.com/AikeNyanLynnOo" target="_blank">a1k3</a>.
+      </div>
+    </div>
+  </body>
+</html>
